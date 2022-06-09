@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    text-align: center;
+
+}
+section, table{
+    text-align: center;
+    
+}
+h2{
+    background-color: #FF9410;
+    color: white;
+    padding:10px;
+    box-shadow: rgb(151, 151, 151) 2px 2px 20px;
+}
+img{
+     
+}
+.gokuContainer{
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+ul, li{
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+input{
+    margin-top: 20px;
+}
+.aboutMeContainer{
+}
+.meterContainer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+
+}
+meter{
+    
+}
