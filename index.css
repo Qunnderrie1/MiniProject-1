@@ -1,48 +1,101 @@
 body{
-    margin: 0px;
+    margin: auto;
     text-align: center;
+    font-family: 'Alfa Slab One', cursive;
 
 }
-section, table{
-    text-align: center;
+table{
+    padding:10px;
+    margin-top: 20px;
+    color: #000000;
+    border: #000000 solid 2px;
+    border-radius: 5px;
+    box-shadow: rgb(145, 145, 145) 2px 2px 5px ;
+}
+td{
     
 }
-h2{
-    background-color: #FF9410;
-    color: white;
-    padding:10px;
-    box-shadow: rgb(151, 151, 151) 2px 2px 20px;
+thead{
+    border: black solid 2px;
+
 }
-img{
-     
+th{
+  
 }
-.gokuContainer{
+.mainContainer{
+    margin: 0px 40px;
     text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: lighter;
+    
+}
+
+h2{
+    font-family: 'Alfa Slab One', cursive;
+    text-align: start;
+    border-bottom: #FF9410 solid 2px;
+    color: rgb(0, 0, 0);
+    padding:10px;
+}
+h3{
+    font-family: 'Alfa Slab One', cursive;
 }
 a{
     text-align: center;
 }
 ul, li{
+    margin: 0px;
     padding: 0px;
     list-style-type: none;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    
 }
-p{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
+
 input{
     margin-top: 20px;
 }
-.aboutMeContainer{
+label{
+    margin-top: 20px;
+}
+.connectContainer{
+    row-gap: 40px;
+    
+    
 }
 .meterContainer{
     margin-top: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    column-gap: 40px;
 
 }
-meter{
-    
+
+button{
+    margin-top: 40px;
 }
+.aboutMeImage{
+    margin-top: 40px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px rgb(180, 180, 180);
+}
+h3{
+    font-size: 2rem;
+}
+.movieContainer{
+    text-align: center;
+    margin: auto;
+}
+.summaryText{
+    margin: 0px;
+    font-size: 1rem;
+    margin: 40px 0px;
+    text-align: center;
+}
+.movieTrailer{
+    margin-top: 40px;
+    padding: 40px 0px;
+}
+footer{
+    padding:40px 0px;
+}
+

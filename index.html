@@ -4,29 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DragonBall Z Characters</title>
-    <link rel="stylesheet" href="index.css">
+    <title>DragonballZ Characters & Movie</title>
+    <link rel="stylesheet" href="index.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
   
+
+<div class="mainContainer container">
     <section>
         <table>
-            <tr>
-                <th>Month</th>
-                <th>Day</th>
-                <th>Year</th>
-            </tr>
-            <tr>
-                <td>June</td>
-                <td>09</td>
-                <td>2022</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Day</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>06</td>
+                    <td>09</td>
+                    <td>2022</td>
+                </tr>
+            </tbody>
         </table>
     </section>
     <section>
+        <!------ Characters Section ----------> 
         <div class="gokuContainer">
             <h2>Goku</h2>
-            <img src="./goku2.png" width="300px" height="455px" alt="goku" srcset="">
+            <img src="./goku2.png" width="280px" height="455px" alt="goku" srcset="">
             <p>The main character</p>
             <ul>
                 <li>Sayian</li>
@@ -37,72 +47,128 @@
         </div>
         <div>
             <h2>Piccolo</h2>
-            <img src="./picoolo.png" width="300px" height="455px" alt="goku" srcset="">
+            <img src="./picoolo.png" width="280px" height="455px" alt="Piccolo" srcset="">
             <p>Strongest Namek</p>
             <ul>
                 <li>Green Skin</li>
-                <li>Special Bean Cannon</li>
-                <li>Regenerate</li>
+                <li>Powerful finish move: Special Bean Cannon</li>
+                <li>Ability to Regenerate</li>
             </ul>
             <a href="https://dragonball.fandom.com/wiki/Piccolo">Read more</a>
         </div>
         <div>
             <h2>Frieza</h2>
-            <img src="./Frieza.png" width="300px" height="455px" alt="goku" srcset="">
+            <img src="./Frieza.png" width="300px" height="455px" alt="Frieza" srcset="">
             <p>Evil Vilian</p>
             <ul>
-                <li>Transform</li>
-                <li>Gold Transform</li>
-                <li>Survive In Space</li>
+                <li>Transformation</li>
+                <li>Evil</li>
+                <li>Can Survive In Space</li>
             </ul>
             <a href="https://en.wikipedia.org/wiki/Frieza">Read more</a>
         </div>
     </section>
     <section>
-        <!-----  Connect With Me ---------->
+        <!-----  Connect With Me Section ---------->
         <h2>Connect with me</h2>
-        <div class="aboutMeContainer">
+        <div class="connectContainer">
             <div>
-                <label for="firstname">Name:</label>
-                <input type="text" name="firstname" id="firstname">
+                <label for="firstname">Name: </label>
+                <input type="text" name="firstname" id="firstname" placeholder="Name">
             </div>
             <div>
-                <label for="firstname">Email:</label>
-                <input type="email" name="email" id="email">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Email">
             </div>
+            <button type="submit">Send Message</button>
         </div>
 
+    </section>
 
+    <section>
+        <!------ Excited To Learn Section ----------> 
         <div>
             <h2>Excited to learn</h2>
             <div class="meterContainer">
             <div>
-                <h6>Node.js</h6>
+                <h4>Node.js</h4>
                 <meter min="0" max="100" value="65"></meter>     
             </div>
             <div>
-                <h6>React.js</h6>
+                <h4>React.js</h4>
                 <meter min="0" max="100" value="85"></meter>     
             </div>
             <div>
-                <h6>SQL</h6>
+                <h4>SQL</h4>
                 <meter min="0" max="100" value="50"></meter>     
+            </div>
+            <div>
+                <h4>Javascript</h6>
+                <meter min="0" max="100" value="67"></meter>     
+            </div>
+            <div>
+                <h4>CSS</h6>
+                <meter min="0" max="100" value="89"></meter>     
             </div>
         </div>
         </div>
+    </section>
+
+    <section>
+        <!------ Facts About Me Section ----------> 
+        <div class="container">
+            <h2>About Me</h2>
+            <img class="aboutMeImage" src="/me.jpg" alt="" width="200px" height="200px" srcset="">
+            <h3>Facts</h3>
+            <p>Love to learn new things</p>
+            <p>Very Creative</p>
+            <p>Love to code</p>
+            <p>Love meeting new people</p>
+            <p>Love to Go fishing</p>
+            
+        </div>
+    </section>
 
 
-        </div>
-        <div>
-            <h3>About me</h3>
-        </div>
-    </section>
     <section>
-        <!----- Movie  ---------->
+        <!------ Movie Section ----------> 
+        <div class="movieContainer ">
+            <h2>Favorite Movie</h2>
+            <h3>Dragonballz Resurrection F</h3>
+            <img src="/drgaon_ball_z_resurrection_no_f_movie.png" width="400px" height="400px" alt="" srcset="">
+            <p class="summaryText">"After the God of Destruction Beerus decided to not destroy the Earth, the planet is back again in peace. But, Sorube and Tagoma, previous Freeza's servants, decide to revive his leader using the Dragon Balls. Succesful in his plan, Freeza decides to return
+                 to earth to start his revenge against the Saiya-jin who humiliated him once."</p>
+        </div>
+        <div class="mainCharactersContainer">
+            <h3>Main Characters</h3>
+            <ul>
+                <li>Goku</li>
+                <li>Vegeta</li>
+                <li>Frieza</li>
+                <li>Lord Berrus</li>
+            </ul>
+        </div>
+        <div class="movieStatsContainer">
+            <h3>Movie Stats</h3>
+            <ul>
+                <li>Release Date: August 4, 2015</li>
+                <li>Box Office: $139,000,000 (estimated)</li>
+            </ul>
+        </div>
+        <div class="movieTrailer">
+            <iframe width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/WiONylGn8Xw"
+             title="YouTube video player" 
+             frameborder="0" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+             allowfullscreen></iframe>
+        </div>
     </section>
-    <section>
-        <!-----  About Me ---------->
-    </section>
+
+
+    <footer>Built by Qunnderrie Snelling </footer>
+</div>
 
 </body>
 </html>
